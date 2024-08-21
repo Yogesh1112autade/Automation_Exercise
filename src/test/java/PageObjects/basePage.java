@@ -29,5 +29,10 @@ public class basePage {
 		String generatedinteger=RandomStringUtils.randomNumeric(3);
 		   return (generatedString+"@"+generatedinteger);
 	}
+	public String RanPass() {
+		String geneString=RandomStringUtils.randomAlphabetic(6);
+		String geneNum=RandomStringUtils.randomAlphanumeric(3);
+		return (geneString+"@"+geneNum);
+	}
 
 }

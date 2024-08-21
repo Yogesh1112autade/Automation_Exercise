@@ -60,13 +60,13 @@ public class SignUp_OR_Login extends basePage  {
 		return txtSignUpOrLogin.getText();
 	}
 	
-	public void Enter_Name_Email() {
+	public void Enter_Name_Email(String s1,String p1) {
 		String s=randomString();
 		System.out.println(s);
-		txtname.sendKeys(s);
+		txtname.sendKeys(s1);
 		String p=randomString()+"@gmail.com";
 		System.out.println(p);
-		txtEmail.sendKeys(p);
+		txtEmail.sendKeys(p1);
 	}
 	 
 	public void Click_SignUp() {

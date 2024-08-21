@@ -7,8 +7,8 @@
 	
     <classes>
      
-       <!--<class name="TestCases.TC06_Contact_Us_Form"/>-->
-       <class name="TestCases.TC04_LogOutUser"/>
+      <class name="TestCases.TC05_RegisterUserWithExitingEmail"/>
+     <!--   <class name="TestCases.TC01_RegisterUser"/>-->
       
     </classes>
   </test> <!-- Test -->

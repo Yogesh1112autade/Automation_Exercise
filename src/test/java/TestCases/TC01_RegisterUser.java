@@ -23,7 +23,7 @@ public class TC01_RegisterUser extends BaseClass{
 		h.click_signUp_Login();
 		   
 		SignUp_OR_Login s=new SignUp_OR_Login(driver);
-		s.Enter_Name_Email();
+		s.Enter_Name_Email(p.getProperty("name"),p.getProperty("email"));
 		s.Click_SignUp();
 		
 		Create_Account c=new Create_Account(driver);
@@ -36,7 +36,7 @@ public class TC01_RegisterUser extends BaseClass{
 		//a.click_ad();
 		
 		DeleteAccount d=new DeleteAccount(driver);
-		d.clickAccountDelete();
+		//d.clickAccountDelete();
 	}
 	
 	
