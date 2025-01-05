@@ -6,10 +6,8 @@
 	<parameter name="browser" value="chrome"></parameter>
 	
     <classes>
-     
-      <class name="TestCases.TC05_RegisterUserWithExitingEmail"/>
-     <!--   <class name="TestCases.TC01_RegisterUser"/>-->
-      
+   <class name="TestCases.TC13_VerifyProductQuantityInCart">
+ </class> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

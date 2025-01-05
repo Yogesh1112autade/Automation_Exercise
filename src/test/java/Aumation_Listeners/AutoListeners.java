@@ -18,7 +18,7 @@ public class AutoListeners implements ITestListener{
 	public ExtentTest test;
 	
 	public void onStart(ITestContext context) {
-		sparkreporter=new ExtentSparkReporter(System.getProperty("user.dir")+"/reports/NewMyReport.html");
+		sparkreporter=new ExtentSparkReporter(System.getProperty("user.dir")+"/reports/YogeshReport.html");
 		sparkreporter.config().setDocumentTitle("Testing report");
 		sparkreporter.config().setReportName("Testing");
 		sparkreporter.config().setTheme(Theme.DARK);

@@ -34,5 +34,9 @@ public class basePage {
 		String geneNum=RandomStringUtils.randomAlphanumeric(3);
 		return (geneString+"@"+geneNum);
 	}
-
+   public String Email() {
+	   String s=RandomStringUtils.randomAlphabetic(5);
+	   String n =RandomStringUtils.randomNumeric(4);
+	   return (s + n);
+   }
 }

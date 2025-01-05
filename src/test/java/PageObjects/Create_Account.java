@@ -41,7 +41,7 @@ public class Create_Account extends basePage{
    public void fill_Info() {
 	   selectTitle.click();
 	   String s=radomAlphaNumeric();
-	   System.out.println("Pass"+s);
+	   System.out.println("PassWord:"+s);
 	   EntPassword.sendKeys(s);
 	   SelectDays.sendKeys("11");
 	   selectMonth.sendKeys("May");

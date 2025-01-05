@@ -8,6 +8,7 @@ import PageObjects.Create_Account;
 import PageObjects.DeleteAccount;
 import PageObjects.HomePage;
 import PageObjects.SignUp_OR_Login;
+import PageObjects.basePage;
 
 public class TC01_RegisterUser extends BaseClass{
 	
@@ -21,9 +22,12 @@ public class TC01_RegisterUser extends BaseClass{
 			e.printStackTrace();
 		}
 		h.click_signUp_Login();
+		
+		basePage b=new basePage(driver);
 		   
 		SignUp_OR_Login s=new SignUp_OR_Login(driver);
-		s.Enter_Name_Email(p.getProperty("name"),p.getProperty("email"));
+		s.Enter_Name_Email(p.getProperty("name"),b.Email()+"@gmail.com");
+		System.out.println("GEneratedEmail:"+b.Email()+"@gmail.com");
 		s.Click_SignUp();
 		
 		Create_Account c=new Create_Account(driver);

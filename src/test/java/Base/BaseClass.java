@@ -23,7 +23,7 @@ import org.apache.logging.log4j.Logger;
 
 public class BaseClass {
   public WebDriver driver;
-  public Logger logger;
+ // public Logger logger;
   public Properties p;
    @BeforeClass
    @Parameters({"os","browser"})

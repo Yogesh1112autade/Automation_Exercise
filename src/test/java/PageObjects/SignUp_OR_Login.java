@@ -61,11 +61,10 @@ public class SignUp_OR_Login extends basePage  {
 	}
 	
 	public void Enter_Name_Email(String s1,String p1) {
-		String s=randomString();
-		System.out.println(s);
+//		System.out.println("Name:"+s);
 		txtname.sendKeys(s1);
-		String p=randomString()+"@gmail.com";
-		System.out.println(p);
+//		String p=randomString()+"@gmail.com";
+//		System.out.println("Email:"+p);
 		txtEmail.sendKeys(p1);
 	}
 	 

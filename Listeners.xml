@@ -10,8 +10,6 @@
 	
     <classes>
        <class name="TestCases.TC01_RegisterUser"/>
-       <class name="TestCases.TC02_LoginTest"/>
-       <class name="TestCases.TC03_Login_Failed"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
